@@ -22,7 +22,7 @@ This repository contains the .devcontainer files for VSCode to build a Ubuntu 20
 
 3. Clone the articubot_one ROS package
    ```
-   git clone git clone https://github.com/joshnewans/articubot_one
+   git clone https://github.com/joshnewans/articubot_one
    ```
 
 4. Clone the ball_tracker ROS package
