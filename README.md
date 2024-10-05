@@ -62,4 +62,5 @@ This repository contains the .devcontainer files for VSCode to build a Ubuntu 20
 
 
 ## Credit
-- ijnek: https://github.com/ijnek/ros-devcontainer-template
+- [ijnek](https://github.com/ijnek/ros-devcontainer-template)
+- [Josh Ewans](https://github.com/joshnewans)
