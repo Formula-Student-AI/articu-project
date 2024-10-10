@@ -52,7 +52,12 @@ This repository contains the .devcontainer files for VSCode to build a Ubuntu 20
    ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
    ```
 
-9. Open a new terminal, source the overlay again, and launch the ball tracker
+9. Put tennis ball in gazebo models paths
+   ```
+   sudo cp -r tennis_ball/ /usr/share/gazebo-11/models/
+   ```
+
+10. Open a new terminal, source the overlay again, and launch the ball tracker
    ```
    source install/setup.bash
    ros2 launch ball_tracker ball_tracker.launch.py params_file:=./src/articubot_one/config/ball_tracker_params_sim.yaml 
